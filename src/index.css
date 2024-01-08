@@ -1,13 +1,54 @@
+:root {
+  --main-bg-color: #0c1417;
+  --lighter-grey: #19262b;
+  --hover-grey: #1a282e;
+  --lines-border-color: #2c3235;
+  --reddit-red: #d93901;
+  --reddit-red-hover: #962a00;
+  --button-blue: #1c45ac;
+  --button-blue-hover: #2d6ff4;
+  --popular-communities-bg: #040a0a;
+  --main-text-color: #ffffff;
+  --secondary-text-color: #7b8d93;
+}
+
+.App {
+  background-color: var(--main-bg-color);
+  /* min-height: 100vh; */
+  color: var(--main-text-color);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  NAVBAR ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+
+.navBar {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--lines-border-color);
+}
+
+.navBar__logo {
+  height: 4.5rem;
+}
+
+.bg-search {
+  background-color: var(--lighter-grey);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  LEFT NAVBAR ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+
+.title-color {
+  color: var(--secondary-text-color);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

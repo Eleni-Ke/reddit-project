@@ -5,7 +5,7 @@ import Topics from "./Topics";
 
 const LeftNavBar = () => {
   return (
-    <div>
+    <div className="flex">
       <Button>Arrow Popular</Button>
       <Topics />
       <Resources />

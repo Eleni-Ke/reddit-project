@@ -2,9 +2,10 @@ import SearchBar from "./SearchBar";
 
 const NavBar = () => {
   return (
-    <div className="navBar">
-      <div className="navBar__logo">
-        <img src="logo" alt="logo" />
+    <div className="navBar d-flex justify-content-between align-items-center h-100">
+      <div className="navBar__logo  d-flex align-items-center">
+        <img src="/Reddit_Icon.png" alt="logo" className="h-100 w-auto" />
+        <p className="">reddit</p>
       </div>
       <SearchBar />
       <div className="navBar__menu">
